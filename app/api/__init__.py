@@ -2,4 +2,4 @@ from flask import Blueprint
 
 bp = Blueprint('api', __name__)
 
-from app.api import 37
+from app.api import _37

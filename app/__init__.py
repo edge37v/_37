@@ -3,7 +3,6 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask import Flask
 from config import Config
-basedir = os.path.abspath(os.path.dirname(__file__))
 
 db = SQLAlchemy()
 migrate = Migrate()

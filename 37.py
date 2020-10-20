@@ -1,5 +1,5 @@
 from app import create_app, db
-from app.models import Text
+from app._37m import Text
 
 app = create_app()
 
